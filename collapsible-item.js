@@ -101,5 +101,5 @@ module.exports = {
 })()
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',{class:_vm.computedClass},[_c('a',{class:_vm.headerClass,on:{"click":_vm.toggle}},[_vm._t("header")],2),_c(_vm.cTransition,{tag:"transition",attrs:{"name":_vm.cTransitionName}},[(_vm.opened)?_c('div',{class:_vm.bodyClass},[_vm._t("default")],2):_vm._e()])],1)}
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',{class:_vm.computedClass},[_c('div',{class:_vm.headerClass,on:{"click":_vm.toggle}},[_vm._t("header")],2),_c(_vm.cTransition,{tag:"transition",attrs:{"name":_vm.cTransitionName}},[(_vm.opened)?_c('div',{class:_vm.bodyClass},[_vm._t("default")],2):_vm._e()])],1)}
 __vue__options__.staticRenderFns = []

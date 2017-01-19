@@ -3,7 +3,7 @@
 li(
   :class="computedClass"
   )
-  a(
+  div(
     :class="headerClass",
     @click="toggle"
     )
