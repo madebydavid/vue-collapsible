@@ -1,7 +1,7 @@
 // out: ..
 <template lang="pug">
 ul(
-  :class="computedClass"
+  class="collapsible"
   )
   slot
 </template>
@@ -15,8 +15,6 @@ module.exports =
     accordion:
       type: Boolean
       default: false
-    class:
-      default: -> ["collapsible"]
     itemClass:
       type: String
       default: "collapsible-item"
